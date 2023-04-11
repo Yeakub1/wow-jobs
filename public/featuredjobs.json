@@ -1,0 +1,43 @@
+ [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/qggPpcR/rjq-JEKv6-P9-Yjy9d3-KMGvp8.jpg",
+      "name": "Technical Database Engineer",
+      "description": "Google LLC",
+      "time": "Full-time",
+      "hour": "Remote",
+      "location": "Dhaka, Bangladesh",
+      "salary": "Salary : 100K - 150K"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/s23RC4P/netflix.png",
+      "name": "Senior Product Designer",
+      "description": "Netflix",
+      "time": "Full-time",
+      "hour": "Onsite",
+      "location": "Dhaka, Bangladesh",
+      "salary": "Salary : 100K - 150K"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/d0KzQkZ/Tesla.png",
+      "name": "Software Engineer",
+      "description": "Tesla",
+      "time": "Full-time",
+      "hour": "Onsite",
+      "location": "Dhaka, Bangladesh",
+      "salary": "Salary : 100K - 150K"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/7g0ZrQV/Hoichoi.png",
+      "name": "Software Engineer",
+      "description": "hoichoi",
+      "time": "Full Time",
+      "hour": "Remote",
+      "location": "Dhaka, Bangladesh",
+      "salary": "Salary : 100K - 150K"
+    }
+  ]
+

@@ -1,0 +1,13 @@
+.jobs img{
+    height: 60px;
+    width: 40%;
+}
+.work{
+   border: 1px solid blue;
+   padding: 3px 7px;
+   border-radius: 5px;
+}
+.jobs{
+    width: 80%;
+    padding: 25px;
+}

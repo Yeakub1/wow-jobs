@@ -1,0 +1,27 @@
+ [
+    {
+      "id": 1,
+      "name": "Account & Finance",
+      "images": "https://i.ibb.co/5T5PbBV/undraw-Account-re-o7id.png",
+      "description": "300 Jobs Available"
+    },
+    {
+      "id": 2,
+      "name": "Creative Design",
+      "images": "https://i.ibb.co/vjGJjqr/undraw-Designer-life-re-6ywf.png",
+      "description": "100+ Jobs Available"
+    },
+    {
+      "id": 3,
+      "name": "Marketing & Sales",
+      "images": "https://i.ibb.co/dk2SHsS/undraw-All-the-data-re-hh4w.png",
+      "description": "150 Jobs Available"
+    },
+    {
+      "id": 4,
+      "name": "Engineering Job",
+      "images": "https://i.ibb.co/Q7WWr6n/undraw-feeling-proud-qne1.png",
+      "description": "224 Jobs Available"
+    }
+  ]
+
