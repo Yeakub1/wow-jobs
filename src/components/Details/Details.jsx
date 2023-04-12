@@ -25,7 +25,7 @@ const Details = ({ data }) => {
         Job Details
       </h1>
 
-      <div className="grid grid-cols-2 mt-16">
+      <div className="grid lg:grid-cols-2 mt-16">
         <div className="w-[100%]">
           <h1 className="mb-5">
             <span className="font-bold text-lg">Job Description:</span>{" "}
@@ -40,7 +40,7 @@ const Details = ({ data }) => {
           <h1 className="font-bold text-lg">Experiences:</h1>
           <h1 className="mb-5">{exp}</h1>
         </div>
-        <div className="w-[50%] bg-slate-100 ml-60 rounded-md">
+        <div className="lg:w-[50%] bg-slate-100 lg:ml-60 rounded-md">
           <h1 className="font-bold text-lg text-center mt-5 mb-4">
             Job Details
           </h1>

@@ -22,14 +22,13 @@ const Jobs = ({ job }) => {
           </div>
           <p>{salary}</p>
         </div>
-        <Link>
-          <button className="px-4 py-2 bg-[#7E90FE] text-white font-semibold text-lg rounded-md mt-3">
-            View Details
-          </button>
-        </Link>
-        <p>
-          <Link to={`/job/${id}`}>Show Details</Link>
-        </p>
+        <button>
+          <Link to={`/job/${id}`}>
+            <button className="px-4 py-2 bg-[#7E90FE] text-white font-semibold text-lg rounded-md mt-3">
+              View Details
+            </button>
+          </Link>
+        </button>
       </div>
     );
 };
