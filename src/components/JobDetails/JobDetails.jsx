@@ -4,25 +4,28 @@ import Details from '../Details/Details';
 
 const JobDetails = () => {
 
-    const details = useLoaderData();
-    // console.log(details);
+  const hendleAddToJob = (id) => {
+    console.log("hendleAddToJob  cliker", id);
+  }
 
+    const details = useLoaderData();
     const {jobId}  = useParams();
-    console.log(jobId);
 
     const [data, setData] = useState({});
-    useEffect(() => {
-        const selectData = details.find((item) => item.id == jobId);
-        setData(selectData)
-        // console.log(selectData);
-    },[])
-    
-    console.log(data);
+  useEffect(() => {
+    const selectData = details.find((item) => item.id == jobId);
+    setData(selectData)
+        
+  }, []);
 
 
     return (
       <div>
-        <Details key={data.id} data={data}></Details>
+        <Details
+          key={data.id}
+          data={data}
+          hendleAddToJob={hendleAddToJob}
+        ></Details>
       </div>
     );
 };

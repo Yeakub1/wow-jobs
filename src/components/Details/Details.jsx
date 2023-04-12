@@ -7,8 +7,9 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/solid";
 
-const Details = ({ data }) => {
+const Details = ({ data, hendleAddToJob }) => {
   const {
+    id,
     description,
     responsibility,
     edu,
@@ -20,7 +21,7 @@ const Details = ({ data }) => {
     Address,
   } = data;
   return (
-    <div className="px-20 ">
+    <div className="px-20">
       <h1 className="mt-10 text-center bottom-0 relative font-bold text-4xl bg-slate-200 p-10">
         Job Details
       </h1>
@@ -85,7 +86,9 @@ const Details = ({ data }) => {
             </div>
           </div>
           <div className="text-center px-4 py-2 bg-blue-400 text-lg font-semibold">
-            <button className="">Apply Now</button>
+            <button onClick={() => hendleAddToJob(id)} className="">
+              Apply Now
+            </button>
           </div>
         </div>
       </div>

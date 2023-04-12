@@ -8,11 +8,13 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import Header from './components/Header/Header';
 import JobDetails from './components/JobDetails/JobDetails';
+import ErrorPage from './components/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Navbar></Navbar>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -34,10 +36,6 @@ const router = createBrowserRouter([
         path: "job/:jobId",
         element: <JobDetails></JobDetails>,
         loader: async () => fetch("/jobdetails.json"),
-
-        // loader: ({params})=> fetch(``)
-        // loader: ({ params }) =>
-        //   fetch(`https://jsonplaceholder.typicode.com/users/${params.jobId}`),
       },
     ],
   },
