@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 
 const Jobs = ({ job }) => {
-    const { name, image, description, time, hour, location, salary } = job;
+    const {id, name, image, description, time, hour, location, salary } = job;
     return (
       <div className="mb-10 jobs mx-auto shadow-lg">
         <img src={image} alt="" />
@@ -22,9 +22,14 @@ const Jobs = ({ job }) => {
           </div>
           <p>{salary}</p>
         </div>
-        <button className="px-4 py-2 bg-[#7E90FE] text-white font-semibold text-lg rounded-md mt-3">
-          <Link>View Details</Link>
-        </button>
+        <Link>
+          <button className="px-4 py-2 bg-[#7E90FE] text-white font-semibold text-lg rounded-md mt-3">
+            View Details
+          </button>
+        </Link>
+        <p>
+          <Link to={`/job/${id}`}>Show Details</Link>
+        </p>
       </div>
     );
 };

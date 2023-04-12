@@ -7,38 +7,41 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import Header from './components/Header/Header';
-import JobCatagory from './components/Jobcatagory/JobCatagory';
+import JobDetails from './components/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Navbar></Navbar>,
     children: [
       {
-        path: '/statistics',
+        path: "/",
+        element: <Header></Header>,
+      },
+      {
+        path: "/statistics",
         element: <Statistics></Statistics>,
       },
       {
-        path: '/appliedjobs',
+        path: "/appliedjobs",
         element: <AppliedJobs></AppliedJobs>,
       },
       {
-        path: '/blog',
+        path: "/blog",
         element: <Blog></Blog>,
       },
       {
-        path: '/',
-        element: <Header></Header>,
-        
+        path: "job/:jobId",
+        element: <JobDetails></JobDetails>,
+        loader: async () => fetch("/jobdetails.json"),
+
+        // loader: ({params})=> fetch(``)
+        // loader: ({ params }) =>
+        //   fetch(`https://jsonplaceholder.typicode.com/users/${params.jobId}`),
       },
-      {
-        path: '/',
-        
-      },
-    ]
+    ],
   },
-    
-])
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

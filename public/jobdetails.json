@@ -1,32 +1,31 @@
- [
- {
-     "id": 1,
-     "Description": "A US-based company that is helping businesses to improve the lives of both the employees and the facilities management teams who are in charge of managing the workplace, is looking for a Senior Web Developer. The selected candidate will be responsible for improving the user experience of the front-end apps with their expertise and building solid code. The company is helping businesses to create productive and responsive work environments. The organization has been covered in the Wall Street Journal and named on Entrepreneur Magazine’s list of 100 brilliant companies as well. They have managed to raise $7mn+ in funding so far.",
-     "Responsibility": "Code canyon-Based Laravel Application Development. Ability to customize Laravel Script.Web Application Development for Clients.Backend Development from Pre-made UI of Admin Panel. Building Rest APIs. Must have knowledge of working with ReactJS. Keep updated on the latest features of the updated version of Laravel. Collaborate with product designers on the team, developers, and product managers. Advanced work experience in developing API using Laravel.Strong hand-coding ability with JavaScript, jQuery",
-     "Educational:": "Bachelor degree to complete any reputational university.",
-     "Experiences:": "2-3 Years in this field."
- },
- {
-   "id": 2,
-   "Description": "Develop, customize, enhance web application systems. Understand business processes and requirements in order to provide effective solutions to users.. Analyze and assist users in defining requirements. Prepare systems design specifications. Ensure unit, system and integration performance quality before implementation. Implement production systems. Develop and optimize existing features, as well as prototype and implement new features",
-   "Responsibility": " 3+ years of professional application development experience on the Frontend.. Solid knowledge of HTML5 CSS3 & Client-side JavaScript. Basic understanding of server-side CSS pre-processing platforms, such as LESS and SASS. Good understanding of asynchronous request handling, partial page updates, and AJAX. Proficient understanding of client-side scripting and JavaScript frameworks, including JQuery, ReactJS/VueJS. Proficient understanding of cross-browser compatibility issues and ways to work...",
-   "Educational:": " Bachelor of Science (BSc) in CSE Or Equivalent",
-   "Experiences:": " At least 5 year(s)"
- },
- {
-   "id": 3,
-   "Description": "Working on web application development in PHP..(Front end / back end or both is preferable).Sound knowledge and working experience with Laravel, Lumen framework ..Working experience with different server configuration like Apache, Vagrant etc..Working in Linux (CentOS) environemnt..Handling AWS server along with configuration, deployment & monitoring..Requirement analysis and impose design pattern in the implementation",
-   "Responsibility": "As a full-stack developer, your job will be to create and implement new features in accordance with specifications. Additionally, you have to make sure that when architecting systems, non-functional needs like security, performance maintainability, scalability, usability, and dependability are taken into account. Creating website back-end applications will be your main responsibility. You must have to keep your job knowledge up-to-date by studying new development tools, programming techniques, and computing equipment.",
-   "Educational:": " Bachelor of Science (BSc) in CSE Or Equivalent",
-   "Experiences:": " At least 1 year(s)"
- },
- {
-   "id": 4,
-   "Description": "BroTecs Technologies Limited is an opening for young graduates and final year students who want to enhance their arts, expertise, and skills of professional application of the technical knowledge they merited during their educational term. Therefore, we are looking for prominent Intern Software Engineers who will work with us for the Cloud Engineering Team for a period of six months.",
-   "Responsibility": "Must be good in programming Good at Algorithms and Data Structure. Basic knowledge in Python/PHP/Shell (Advanced level is plus) Basic level knowledge of PHP 5.x – MVC Framework & RDBMS (Specially MySQL). Fair knowledge of CSS3, HTML5, Ajax, AngularJS, React, ES6. Fair knowledge in Responsive Design for smart devices (Smartphones, Tabs, Pads). Basic knowledge in Linux system (preferably - distributions, packages, environment, shell scripting) Ability to find out website/web application bugs & fix them by own. Must be well mannered, well behavior and fun lover",
-   "Educational:": " Bachelor  graduate, postgraduate in CSE or CSC.",
-   "Experiences:": " At least 1 year(s)"
- }]
+[
+  {
+    "id": 1,
+    "description": "A US-based company that is helping businesses to improve the lives of both the employees and the facilities management teams who are in charge of managing the workplace, is looking for a Senior Web Developer. The selected candidate will be responsible for improving the user experience of the front-end apps with their expertise and building solid code. ",
 
-
-  
+    "responsibility": "Code canyon-Based Laravel Application Development. Ability to customize Laravel Script.Web Application Development for Clients.Backend Development from Pre-made UI of Admin Panel.",
+    "educational:": "Bachelor degree to complete any reputational university.",
+    "experiences:": "2-3 Years in this field."
+  },
+  {
+    "id": 2,
+    "description": "Develop, customize, enhance web application systems. Understand business processes and requirements in order to provide effective solutions to users.. Analyze and assist users in defining requirements. Prepare systems design specifications. Ensure unit, system and integration performance quality before implementation. Implement production systems. Develop and optimize existing features, as well as prototype and implement new features",
+    "responsibility": " 3+ years of professional application development experience on the Frontend.. Solid knowledge of HTML5 CSS3 & Client-side JavaScript. Basic understanding of server-side CSS pre-processing platforms, such as LESS and SASS. Good understanding of asynchronous request handling, partial page updates, and AJAX. Proficient understanding of client-side scripting and JavaScript frameworks, including JQuery, ReactJS/VueJS. Proficient understanding of cross-browser compatibility issues and ways to work...",
+    "educational:": " Bachelor of Science (BSc) in CSE Or Equivalent",
+    "experiences:": " At least 5 year(s)"
+  },
+  {
+    "id": 3,
+    "description": "Working on web application development in PHP..(Front end / back end or both is preferable).Sound knowledge and working experience with Laravel, Lumen framework ..Working experience with different server configuration like Apache, Vagrant etc..Working in Linux (CentOS) environemnt..Handling AWS server along with configuration, deployment & monitoring..Requirement analysis and impose design pattern in the implementation",
+    "responsibility": "As a full-stack developer, your job will be to create and implement new features in accordance with specifications. Additionally, you have to make sure that when architecting systems, non-functional needs like security, performance maintainability, scalability, usability, and dependability are taken into account. Creating website back-end applications will be your main responsibility. You must have to keep your job knowledge up-to-date by studying new development tools, programming techniques, and computing equipment.",
+    "educational:": " Bachelor of Science (BSc) in CSE Or Equivalent",
+    "experiences:": " At least 1 year(s)"
+  },
+  {
+    "id": 4,
+    "description": "BroTecs Technologies Limited is an opening for young graduates and final year students who want to enhance their arts, expertise, and skills of professional application of the technical knowledge they merited during their educational term. Therefore, we are looking for prominent Intern Software Engineers who will work with us for the Cloud Engineering Team for a period of six months.",
+    "responsibility": "Must be good in programming Good at Algorithms and Data Structure. Basic knowledge in Python/PHP/Shell (Advanced level is plus) Basic level knowledge of PHP 5.x – MVC Framework & RDBMS (Specially MySQL). Fair knowledge of CSS3, HTML5, Ajax, AngularJS, React, ES6. Fair knowledge in Responsive Design for smart devices (Smartphones, Tabs, Pads). Basic knowledge in Linux system (preferably - distributions, packages, environment, shell scripting) Ability to find out website/web application bugs & fix them by own. Must be well mannered, well behavior and fun lover",
+    "educational:": " Bachelor  graduate, postgraduate in CSE or CSC.",
+    "experiences:": " At least 1 year(s)"
+  }
+]
