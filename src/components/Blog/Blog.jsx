@@ -20,7 +20,20 @@ const Blog = () => {
           custom hook has and what should the argument return. A custom hook
           always starts with the name
         </h1>
-        
+        <h1 className="mt-5">
+          <span className="font-semibold text-xl">useRef:</span> The useRef hook
+          is the new addition in React 16.8. Before proceeding to this article
+          there is a prerequisite to know about the ref in react. The useRef is
+          a hook that allows to directly create a reference to the DOM element
+          in the functional component.
+        </h1>
+        <h1 className="mt-5">
+          <span className="font-semibold text-xl">usememo:</span> React has a
+          built-in hook called useMemo that allows you to memoize expensive
+          functions so that you can avoid calling them on every render. You
+          simple pass in a function and an array of inputs and useMemo will only
+          recompute the memoized value when one of the inputs has changed.
+        </h1>
       </div>
     );
 };
