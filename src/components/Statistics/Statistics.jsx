@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { PureComponent } from "react";
 import {
   AreaChart,
   Area,
@@ -7,36 +8,66 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  LineChart,
-  Line,
 } from "recharts";
 
-const Statistics = () => {
-     const marks = [
-       
-       { studentId: 1, assignment: "A1", mark: 60 },
-       { studentId: 2, assignment: "A2", mark: 59 },
-       { studentId: 3, assignment: "A3", mark: 60 },
-       { studentId: 4, assignment: "A4", mark: 58 },
-       { studentId: 5, assignment: "A5", mark: 58 },
-       { studentId: 6, assignment: "A6", mark: 60 },
-       { studentId: 7, assignment: "A7", mark: 59 },
-       { studentId: 8, assignment: "A8", mark: 58 },
-     ];
+const data = [
+  {
+    name: "A 1",
+    uv: 60,
+  },
+  {
+    name: "A 2",
+    uv: 59,
+  },
+  {
+    name: "A 3",
+    uv: 60,
+  },
+  {
+    name: "A 4",
+    uv: 58,
+  },
+  {
+    name: "A 5",
+    uv: 58,
+  },
+  {
+    name: "A 6",
+    uv: 60,
+  },
+  {
+    name: "A 7",
+    uv: 59,
+  },
+  {
+    name: "A 8",
+    uv: 58,
+  },
+];
+
+export default function App() {
+ 
 
     return (
-      <div className="lg:px-20 mt-10 ">
-        <LineChart width={500} height={300} data={marks}>
-          <Line dataKey="mark" stroke="#8884d8"></Line>
-
-          <XAxis dataKey="assignment" />
+      <ResponsiveContainer width="50%" aspect={3}>
+        <AreaChart
+          width={500}
+          height={400}
+          data={data}
+          margin={{
+            top: 10,
+            right: 30,
+            left: 0,
+            bottom: 0,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
           <YAxis />
-                <Tooltip />
-                <Area type="monotone" dataKey="mark" stroke="#82ca9d" fill="#82ca9d" />
-          
-        </LineChart>
-      </div>
+          <Tooltip />
+          <Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
+        </AreaChart>
+      </ResponsiveContainer>
     );
-};
+  }
 
-export default Statistics;

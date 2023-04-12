@@ -9,6 +9,7 @@ import Blog from './components/Blog/Blog';
 import Header from './components/Header/Header';
 import JobDetails from './components/JobDetails/JobDetails';
 import ErrorPage from './components/ErrorPage';
+import { productsAndData } from './Loder/productAndCartData';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       {
         path: "/appliedjobs",
         element: <AppliedJobs></AppliedJobs>,
+        loader: productsAndData,
       },
       {
         path: "/blog",

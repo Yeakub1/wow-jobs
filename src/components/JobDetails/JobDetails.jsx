@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import Details from '../Details/Details';
+import { addToDB } from '../../utilities/fakeDB';
 
 const JobDetails = () => {
 
   const hendleAddToJob = (id) => {
-    console.log("hendleAddToJob  cliker", id);
+    // console.log("hendleAddToJob  cliker", id);
+    addToDB(id)
   }
 
     const details = useLoaderData();
